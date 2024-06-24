@@ -26,6 +26,7 @@ Le document "Meow Write-up" fournit des instructions pour débuter avec Hack The
 - **Sécurité** : Telnet n'est pas sécurisé car les données, y compris les mots de passe, sont transmises en texte clair. Cela le rend vulnérable aux interceptions et aux attaques de type "man-in-the-middle".
 
 ### 2. Brute-force manuel
+- **Commande de connexion Telent** : Utilisez la commande `telnet {IP_de_la_cible}` pour vous connecter au service telnet de la cible.
 - **Tentatives de connexion** : Étant donné que certains dispositifs réseau ou hôtes peuvent avoir des comptes avec des mots de passe par défaut ou vides, vous pouvez essayer de vous connecter en utilisant des noms d'utilisateur courants comme `admin`, `administrator`, et `root`.
 - **Exemple réussi** : Après plusieurs tentatives, une connexion avec l'utilisateur `root` sans mot de passe peut réussir, ce qui vous donne accès au système.
 
